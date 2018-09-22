@@ -37,9 +37,9 @@ span {
 	line-height: 300px;
 }
 
-#barbershop, #manicure, #muller {
+section {
 	height: 100vh;
-
+	border-top: 2px solid green;
 }
 
 
