@@ -1,0 +1,27 @@
+header {
+	/*height: 20vh;*/
+background: -webkit-linear-gradient(bottom right, powderblue, pink);
+background: -o-linear-gradient(bottom right, powderblue, pink);
+background: linear-gradient(to top left, powderblue, pink);
+}
+
+.logo img {
+		margin: 1.9rem;
+	 	max-width: 50%;
+  		height:auto;
+  		
+}
+
+
+
+
+
+.social-links a {
+	color: #b4b4bb;
+	font-size: 1.4rem;
+	margin-right: 1rem;
+}
+
+/*.social-links a .last {
+	margin-right: 0;
+}*/
