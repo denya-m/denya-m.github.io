@@ -5,23 +5,40 @@ background: -o-linear-gradient(bottom right, powderblue, pink);
 background: linear-gradient(to top left, powderblue, pink);
 }
 
-.logo img {
-		margin: 1.9rem;
-	 	max-width: 50%;
-  		height:auto;
-  		
-}
-
-
-
-
-
 .social-links a {
 	color: #b4b4bb;
 	font-size: 1.4rem;
 	margin-right: 1rem;
 }
 
-/*.social-links a .last {
-	margin-right: 0;
-}*/
+.logo img {
+		margin: 1.9rem ;
+	 	max-width: 40%;
+  		height:auto;  		
+}
+
+
+h1 {
+	text-align: center;
+	font-size: 3rem;
+	font-weight: 500;
+	line-height: 1;
+	text-transform: uppercase;
+}
+
+.barbershop__img, .manicure__img, .muller__img {
+	background-color: #f2f2f2;
+	width: 450px;
+	height: 300px;
+	text-align: center;
+	line-height: 300px;
+}
+
+#barbershop, #manicure, #muller {
+	height: 100vh;
+	border-top: 2px solid green;
+	text-align: center;
+
+}
+
+
