@@ -2,17 +2,49 @@
 
 	.logo img {
 		margin: 1.9rem 0 0;
-	 	max-width: 40%;
-  		height:auto;
+		max-width: 100%;
+		/*max-width: 40%;
+  		height:auto;  */
   		/*border: 1px solid red;*/
-}
+	}
 
-.header-contacts {
-	margin-bottom: 1.9rem;
-}
 
-h2 {
-	font-size: ;
-}
+
+	.header-contacts {
+		margin-bottom: 1.9rem;
+	}
+
+	section {
+		height: 100%;
+		border-top: 2px solid green;
+		padding: 50px 0;
+	}
+
+	#eyelashes, #manicure {
+		height: 100%;
+
+	}
+
+	h2 {
+		margin-top: 2rem;
+		font-size: 3rem;
+		line-height: 1;
+	}
+
+	.margin-top-content {
+		margin-top: 50px;
+	}
+
+	.barbershop__description, .eyelashes__description {
+		margin-top: 50px;
+	}
+
+	.services-barbershop, .services-manicure, .services-eyelashes {
+		margin-top: 20px;
+	}
+
+	.manicure__img {
+		margin-top: 50px;
+	}
 
 }
