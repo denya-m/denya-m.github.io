@@ -1,3 +1,8 @@
+ html {
+ 	font-size: 10px;
+ }
+
+
 a {
 	text-decoration: none;
 }
@@ -7,17 +12,18 @@ header {
 background: -webkit-linear-gradient(bottom right, powderblue, pink);
 background: -o-linear-gradient(bottom right, powderblue, pink);
 background: linear-gradient(to top left, powderblue, pink);
+	font-size: 1.6rem;
 }
 
 .social-links a {
 	color: #b4b4bb;
-	font-size: 1.4rem;
-	margin-right: 1rem;
+	font-size: 1.4em;
+	margin-right: 1.5rem;
 }
 
 .logo img {
-		margin: 1.9rem ;
-	 	max-width: 50%;
+		margin: 1.9em 0;
+	 	max-width: 40%;
   		height:auto;  		
 }
 
@@ -34,13 +40,7 @@ span {
 	display: block;
 }
 
-.muller__img {
-	background-color: #f2f2f2;
-	width: 450px;
-	height: 300px;
-	text-align: center;
-	line-height: 300px;
-}
+
 
 section {
 	height: 100vh;
@@ -55,9 +55,9 @@ section {
 .header-address {
 	color: #c2c9db;
 	background-color:  #fff;
-	padding: 0.5rem;	
-	margin: 1rem;
-	font-size: 1.2rem;
+	padding: 0.5em;	
+	margin: 1em 0;
+	font-size: 1.2em;
 	font-weight: 700;
 	text-transform: uppercase;
 	transition: 0.5s;
@@ -74,9 +74,9 @@ section {
 .call {
 	color: #fff;
 	background-color:  #3CB371;
-	padding: 0.3rem;	
+	padding: 0.3em;	
 	margin: 1	rem;
-	font-size: 1rem;
+	font-size: 1em;
 	font-weight: 700;
 	text-transform: uppercase;
 	transition: 0.5s;
@@ -107,6 +107,12 @@ section {
 }
 
 
+#muller {
+	background: -webkit-linear-gradient(left, #F6EFD2, #CEAD78);
+	background: -o-linear-gradient(left, #F6EFD2, #CEAD78);
+	background: linear-gradient(to right, #F6EFD2, #CEAD78);
+}
+
 
 
 h2 {
@@ -124,7 +130,7 @@ img{
 	border-radius: 10px;
 }
 
-.services-barbershop, .services-manicure, .services-eyelashes{
+.services-barbershop, .services-manicure, .services-eyelashes, .services-muller{
 	color: #C71585;
 	background-color: #FFF0F5;
 	font-size: 2rem;
@@ -142,7 +148,7 @@ img{
 }
 
 
-.services-eyelashes-box {
+.services-eyelashes-box, .services-muller-box {
 	display: inline-block;
 	color: #fff;
 	background-color: #ACB6E5;
