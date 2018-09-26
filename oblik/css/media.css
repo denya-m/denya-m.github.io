@@ -20,22 +20,26 @@
 		padding: 50px 0;
 	}
 
-	#eyelashes, #manicure {
+	#eyelashes, #manicure, #muller, #maps {
 		height: 100%;
 
 	}
 
 	h2 {
-		margin-top: 2rem;
+		margin-top: 0rem;
 		font-size: 3rem;
 		line-height: 1;
 	}
 
 	.margin-top-content {
-		margin-top: 50px;
+		margin-top: 40px;
 	}
 
-	.barbershop__description, .eyelashes__description {
+	#maps .margin-top-content {
+		margin-top: 0;
+	}
+
+	.barbershop__description, .eyelashes__description, .map, .services-maps{
 		margin-top: 50px;
 	}
 
@@ -43,8 +47,13 @@
 		margin-top: 20px;
 	}
 
-	.manicure__img {
+	.manicure__img, .muller__img {
 		margin-top: 50px;
+	}
+
+	.services-maps {
+		margin-right: 0;
+		margin-left: 1.2rem;
 	}
 
 }
