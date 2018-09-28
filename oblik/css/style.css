@@ -136,7 +136,15 @@ h2 {
 
 }
 
-.margin-top-content {
+#manicure .margin-top-content, #eyelashes .margin-top-content {
+	margin-top: 15vh;
+}
+
+#barbershop .margin-top-content {
+	margin-top: 20vh;
+}
+
+#maps .margin-top-content, #muller .margin-top-content {
 	margin-top: 6rem;
 }
 

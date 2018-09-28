@@ -31,7 +31,7 @@
 		line-height: 1;
 	}
 
-	.margin-top-content {
+	#muller .margin-top-content, #barbershop .margin-top-content, #manicure .margin-top-content, #eyelashes .margin-top-content {
 		margin-top: 40px;
 	}
 
