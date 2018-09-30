@@ -171,7 +171,7 @@ img{
 }
 
 
-.services-eyelashes-box, .services-muller-box, .services-maps {
+.services-eyelashes-box, .services-muller-box, .services-maps, .services-barbershop-box {
 	display: inline-block;
 	text-align: center;
 	color: #fff;
@@ -188,15 +188,24 @@ img{
 	margin-top: 1rem;
 }
 
+.services-barbershop-box {
+	margin: 1rem 0.5rem;
+}
+
+.services-barbershop p, .services-eyelashes p {
+	margin-bottom: 2rem;
+}
+
+.services-eyelashes-box {
+	margin: 1rem 0.5rem;
+}
+
 .services-muller-box {
 	margin-right: 0;
 }
 
 .services-maps a {
 	color: #fff;
-}
-
-.services-maps:{
 }
 
 .line {
