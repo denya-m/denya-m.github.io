@@ -20,10 +20,10 @@
 		padding: 50px 0;
 	}
 
-	#eyelashes, #manicure, #muller, #maps {
+/*	#eyelashes, #manicure, #muller, #maps {
 		height: 100%;
 
-	}
+	}*/
 
 	h2 {
 		margin-top: 0rem;
@@ -55,5 +55,40 @@
 		margin-right: 0;
 		margin-left: 0.5rem;
 	}*/
+
+}
+
+
+@media screen and (min-width: 768px) {
+
+
+	#eyelashes, #manicure, #muller, #maps {
+		height: 100%;
+		}
+
+		#muller .margin-top-content, /*#barbershop .margin-top-content,*/ #manicure .margin-top-content, #eyelashes .margin-top-content {
+		margin-top: 10rem;
+	}
+
+	/*h2 {
+		margin-top: 10rem;
+	}*/
+
+	h2 {
+		margin-top: 10rem;
+	}
+
+}
+
+@media screen and (max-height: 900px) {
+
+
+	#eyelashes, #manicure, #muller, #maps {
+		height: 100%;
+		
+		}
+	 #muller, #eyelashes, #manicure {
+	 	padding-bottom: 100px;
+	 }
 
 }
