@@ -183,7 +183,7 @@ img{
 	font-weight: 700;
 	text-transform: uppercase;
 	transition: 0.5s;
-	/*border: 3px solid #fff;*/
+	border: 2px solid #fff;
 	border-radius: 100px;
 	margin-top: 1rem;
 }
@@ -206,6 +206,33 @@ img{
 
 .services-maps a {
 	color: #fff;
+}
+
+
+.services-barbershop-box:hover, .services-muller-box:hover {
+	cursor: pointer;
+	transition: 0.5s;
+	padding: 1rem;
+	font-size: 1.3rem;
+	margin: 1.5rem;
+	
+}
+
+.services-eyelashes-box:hover {
+	cursor: pointer;
+	transition: 0.5s;
+	padding: 2.5rem;
+	margin: 1.5rem;
+	background-color: #fff;
+	color: #ACB6E5;
+	border: 1px solid #ACB6E5;
+}
+
+.services-maps:hover {
+	cursor: pointer;
+	transition: 0.5s;
+	padding: 2rem;
+	font-size: 2rem;
 }
 
 .line {
