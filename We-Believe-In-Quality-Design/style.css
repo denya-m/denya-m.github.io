@@ -155,27 +155,28 @@ p.first-card {
     justify-content: space-between;
 }
 
-.portfolio {
+.portfolio, .brand-slider {
     max-width: 90%;
     margin: 0 auto;
     padding: 90px 0 0;
     text-align: center;
 }
 
-.portfolio h4 {
+
+.portfolio h4, .brand-slider h4 {
     display: inline-block;
     background: #424147;
     padding: 0 30px;
-    margin: 0 0 30px;
+    /* margin: 0 0 30px; */
     font-size: 18px;
     text-transform: uppercase;
     color: #f5e10a;
-    margin: 0 0 30px;
 }
 
-.portfolio p {
+.portfolio p, .brand-slider p {
     color: #424146;
     font-size: 16px;
+    margin: 20px 0 20px;
 }
 
 .toggles button {
@@ -184,7 +185,7 @@ p.first-card {
     cursor: pointer;
     font-size: 16px;
     text-transform: uppercase;
-    margin: 20px 5px;
+    margin: 0 5px;
 }
 
 .toggles button:after {
@@ -197,7 +198,7 @@ p.first-card {
 
 .posts {
     max-width: 90%;
-    margin: 0 auto;
+    margin: 20px auto;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -208,15 +209,110 @@ p.first-card {
     max-width: 360px;
     max-height: 270px;
     margin: 10px 0 0;
-   /* border: 3px solid green; */
 }
 
 .post img {
     width: 360px;
     height: 270px;
-    /* border: 1px solid red; */
 }
 
+.owl-carousel {
+    margin: 0 0 30px;
+}
+
+.footer-top {
+    background: #414146;
+    padding: 30px 0;
+}
+
+.footer-container {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 30% 30% 18%;
+    grid-column-gap: 3%;
+    color: #f5f5f6;
+}
+
+.footer-container {
+    font-size: 13px;
+}
+
+.footer-container h4 {
+    font-size: 18px;
+    text-transform: capitalize;
+    margin: 0 0 30px;
+}
+
+.contacts h4 {
+    margin: 0 0 50px;
+}
+
+.footer-container .about-us a {
+    display: inline-block;
+    padding: 15px 18px 13px; 
+    border-bottom: 2px solid #ffea00;
+    font-size: 15px;
+    color: #fff;
+    background: #000;
+    margin: 30px 0 40px;
+}
+
+.images-footer {
+    margin: 25px 0 0;
+}
+
+.tweets-small-text {
+    display: inline-block;
+    color: #ffea00;
+    font-size: 8px;
+    margin: 10px 26px 0;
+}
+
+.tweets p {
+    margin: 20px 0 0;
+}
+
+.tweets span, .contact-item span {
+    color: #ffea00;
+}
+
+.contact-item {
+    margin: 25px 0 0;
+    background: #5c6068;
+    padding: 15px;
+}
+.contact-item p {
+    display: inline-block;
+    position: absolute;
+    margin: 0 10px;
+}
+
+span.two-phone{
+    color: #fff;
+    margin: 0 58px;
+}
+
+
+.footer-bottom {
+    background: #000;
+    padding: 30px 0;
+}
+
+.footer-menu {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.footer-menu ul {
+    justify-content: space-between;
+}
+
+.footer-menu li a {
+   font-size: 16px;
+   text-transform: uppercase;
+   color: #fff;
+}
 
 
 
