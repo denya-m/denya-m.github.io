@@ -8,4 +8,4 @@ Landing Page
 
 [We-Believe-In-Quality-Design](https://denya-m.github.io/We-Believe-In-Quality-Design/ "We-Believe-In-Quality-Design") - адаптивный лендинг. Flex-box
 
-[Valentine-s-Day](https://denya-m.github.io/Valentine-s-Day/ "Valentine-s-Day")
+[Valentine-s-Day](https://denya-m.github.io/Valentine-s-Day/ "Valentine-s-Day") - Валентинка
