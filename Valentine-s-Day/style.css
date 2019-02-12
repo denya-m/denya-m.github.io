@@ -19,15 +19,13 @@
 
 
 h2 {
-    background: #fff;
     border: 1px solid #ddd;
-    border-radius: 20vmax;
-    font: 700 3vmax "Amatic SC";
-    margin: 1vmax auto 2vmax;
-    padding: 1vw;
+    border-radius: 40px;
+    font: 700 28px "Amatic SC";
+    margin: 8px auto 15px;
+    padding: 5px;
     text-align: center;
-    width: 20vmax;
-    z-index: 5;
+    width: 200px;
     color: #fff;
     background-color:  	#F08080;
   }
@@ -80,7 +78,7 @@ footer {
 
 .map-icon {
     width: 22px;
-    margin: 0 10px 0;
+    margin: 0 10px 0 0;
 
 }
 
