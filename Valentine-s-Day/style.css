@@ -1,16 +1,6 @@
-$master-size:20vmax;
-$pink:#ee565a;
-$grey:#ddd;
-$black:#222;
-$white:#fff;
-$darkpink:#e04e50;
-
 * {
     margin: 0;
     padding: 0;
-        box-sizing:border-box;
-        position:relative;
-
 }
 
 .flex-container {
@@ -28,40 +18,34 @@ $darkpink:#e04e50;
 }
 
 
-
 h2 {
-    background:$white;
-    border:1px solid $grey;
-    border-radius:$master-size;
-    font:700 $master-size*.25/1 "Amatic SC";
-    margin:$master-size*.5 auto $master-size*.2;
-    padding:1vw;
-    text-align:center;
-    width:$master-size*2.5;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 20vmax;
+    font: 700 3vmax "Amatic SC";
+    margin: 1vmax auto 2vmax;
+    padding: 1vw;
+    text-align: center;
+    width: 20vmax;
     z-index: 5;
+    color: #fff;
+    background-color:  	#F08080;
   }
 
-
-  h2:after {
-    border:1vw solid transparent;
-    border-color:transparent $white $white transparent;
-    box-shadow:$master-size*.005 $master-size*.005 $grey;
-    content:'';
-    display:block;
-    left:$master-size*.3;
-    position:absolute;
-    transform:rotate(45deg);
-  }
 
 .head-title {
     text-align: center;
     line-height: 1.5;
+    font-family: "Lora", serif;
+    font-style: italic;
 }
 
 .title {
     margin: 15px 0 0;
     width: 300px;
-    line-height: 1.3;
+    font-family: "Lora", serif;
+    font-style: italic;
+    line-height: 1.5;
 }
 
 .logo {
@@ -79,12 +63,30 @@ hr {
 
 footer {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     padding: 15px;
 }
 
-footer p {
-    color: 	#778899;
+.caption {
+    margin: 30px 0 0;
+    text-align: right;
+    font-family: 'Monotype Corsiva', serif;
+    letter-spacing: 3px;
+    color: #778899;
+    font-size: 18px;
+    text-transform: uppercase;
+    
+}
+
+.map-icon {
+    width: 22px;
+    margin: 0 10px 0;
+
+}
+
+footer p {    
+    font-size: 18px;
+    color:  #dcdde2;
     text-transform: uppercase;
 }
 
