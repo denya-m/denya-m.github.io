@@ -1,6 +1,16 @@
+$master-size:20vmax;
+$pink:#ee565a;
+$grey:#ddd;
+$black:#222;
+$white:#fff;
+$darkpink:#e04e50;
+
 * {
     margin: 0;
     padding: 0;
+        box-sizing:border-box;
+        position:relative;
+
 }
 
 .flex-container {
@@ -17,9 +27,31 @@
     margin: 10px 0 0;
 }
 
+
+
 h2 {
-    text-align: center;
-}
+    background:$white;
+    border:1px solid $grey;
+    border-radius:$master-size;
+    font:700 $master-size*.25/1 "Amatic SC";
+    margin:$master-size*.5 auto $master-size*.2;
+    padding:1vw;
+    text-align:center;
+    width:$master-size*2.5;
+    z-index: 5;
+  }
+
+
+  h2:after {
+    border:1vw solid transparent;
+    border-color:transparent $white $white transparent;
+    box-shadow:$master-size*.005 $master-size*.005 $grey;
+    content:'';
+    display:block;
+    left:$master-size*.3;
+    position:absolute;
+    transform:rotate(45deg);
+  }
 
 .head-title {
     text-align: center;
@@ -29,6 +61,7 @@ h2 {
 .title {
     margin: 15px 0 0;
     width: 300px;
+    line-height: 1.3;
 }
 
 .logo {
@@ -36,3 +69,22 @@ h2 {
     height: 244px;
     border-radius: 160px 160px;
 }
+
+hr {
+    margin: 100px 0 0;
+    border: none;
+    background-color: #F08080;
+    height: 2px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+footer p {
+    color: 	#778899;
+    text-transform: uppercase;
+}
+
