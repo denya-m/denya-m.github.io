@@ -3,7 +3,17 @@
     padding: 0;
 }
 
+body {
+
+}
+
+section {
+    background: url(img/bg.jpg) no-repeat;
+    background-size: contain;
+}
+
 .flex-container {
+    
     margin: 20px auto;
     width: 80%;
     display: flex;
