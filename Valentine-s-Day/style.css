@@ -35,8 +35,18 @@ section .text-wrapper h2 {
     width: 200px;
     color: #fff;
     background-color:  	#F08080;
+    transition: 0.5s;
   }
 
+  section .text-wrapper h2:hover {
+    border: 2px solid #F08080;
+    color: #F08080;
+    background-color: #fff;
+    padding: 8px;
+    width: 203px;
+    transition: 0.2s;
+     
+  }
 
 .head-title {
     
@@ -55,15 +65,15 @@ section .text-wrapper h2 {
 }
 
 .logo {
-       
     width: 244px;
     height: 244px;
     border-radius: 160px 160px;
     box-shadow: 0 0 10px #666;
-    
 }
 
 .logo:hover {
+    box-shadow: 0px 0px 60px 10px rgba(204, 204, 223, 0.71);
+	cursor: pointer;
         animation-name: tossing;
         -webkit-animation-name: tossing;	
     
