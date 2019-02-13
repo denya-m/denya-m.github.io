@@ -4,7 +4,8 @@
 }
 
 body {
-
+    /* background: url(img/123.jpg);
+    background-size: cover; */
 }
 
 section {
@@ -13,7 +14,7 @@ section {
 }
 
 .flex-container {
-    
+    /* border: 1px solid red; */
     margin: 20px auto;
     width: 80%;
     display: flex;
@@ -60,6 +61,7 @@ h2 {
     width: 244px;
     height: 244px;
     border-radius: 160px 160px;
+    box-shadow: 0 0 10px #666;
 }
 
 hr {
@@ -86,6 +88,11 @@ footer {
     
 }
 
+footer {
+    background: url(img/bg-4.jpg);
+    background-size: cover;
+}
+
 .map-icon {
     width: 22px;
     height: 22px;
@@ -95,7 +102,7 @@ footer {
 
 footer p {    
     font-size: 18px;
-    color:  #dcdde2;
+    color:  #C0C0C0;
     text-transform: uppercase;
 }
 
