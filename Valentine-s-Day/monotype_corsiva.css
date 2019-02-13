@@ -2,5 +2,5 @@
 	font-family: 'Monotype Corsiva';
 	src:url('fonts/monotype_corsiva.woff2') format('woff2'), /* Super Modern Browsers */
 		url('fonts/monotype_corsiva.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
-		url('fonts/monotype_corsiva.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('fonts/monotype_corsiva.ttf') format('truetype'); /* Safari, Android, iOS */
 }
