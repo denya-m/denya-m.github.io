@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+/* #object{
+	visibility: hidden;
+} */
+
 
 section {
     background: url(img/bg.jpg) no-repeat;
@@ -25,7 +29,7 @@ section {
 }
 
 
-h2 {
+section .text-wrapper h2 {
     border: 1px solid #ddd;
     border-radius: 40px;
     font: 700 28px "Amatic SC";
@@ -60,9 +64,7 @@ h2 {
     box-shadow: 0 0 10px #666;
 }
 
-#object{
-	visibility: hidden;
-}
+
 
 
 hr {
