@@ -107,6 +107,7 @@ section .text-wrapper h2 {
     
 =======
 .img-wrapper img:hover {
+>>>>>>> parent of 97988d7... new animation
     animation-name: floating;
 	-webkit-animation-name: floating;
 
