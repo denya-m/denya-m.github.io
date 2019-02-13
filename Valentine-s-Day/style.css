@@ -39,10 +39,7 @@ section .text-wrapper h2 {
     background-color:  	#F08080;
   }
 
-.visibility {
-    visibility: hidden;
-    animation-delay: 2s;
-}
+
 .head-title {
     
     text-align: center;
