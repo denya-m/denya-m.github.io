@@ -60,6 +60,10 @@ section .text-wrapper h2 {
     
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> parent of 38c1fe0... 10
 /* .logo:hover {
     animation-name: pulse;
 	-webkit-animation-name: pulse;	
@@ -132,6 +136,7 @@ section .text-wrapper h2 {
     }
     
 
+<<<<<<< HEAD
 /* .logo:hover {
 >>>>>>> parent of 4582fc8... update-10
 =======
@@ -139,6 +144,11 @@ section .text-wrapper h2 {
 =======
 /* .logo:hover {
 >>>>>>> parent of 4582fc8... update-10
+=======
+.logo:hover {
+    box-shadow: 0px 0px 60px 10px rgba(204, 204, 223, 0.71);
+    
+>>>>>>> parent of 38c1fe0... 10
     animation-name: floating;
 	-webkit-animation-name: floating;
 
