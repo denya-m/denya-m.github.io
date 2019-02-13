@@ -3,9 +3,7 @@
     padding: 0;
 }
 
-/* #object{
-	visibility: hidden;
-} */
+
 
 
 section {
@@ -41,8 +39,12 @@ section .text-wrapper h2 {
     background-color:  	#F08080;
   }
 
-
+.visibility {
+    visibility: hidden;
+    animation-delay: 2s;
+}
 .head-title {
+    
     text-align: center;
     line-height: 1.5;
     font-family: "Lora", serif;
@@ -63,7 +65,6 @@ section .text-wrapper h2 {
     border-radius: 160px 160px;
     box-shadow: 0 0 10px #666;
 }
-
 
 
 
@@ -109,3 +110,6 @@ footer p {
     text-transform: uppercase;
 }
 
+.object {
+	visibility: hidden;
+}
