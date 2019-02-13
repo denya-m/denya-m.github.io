@@ -35,6 +35,10 @@ section .text-wrapper h2 {
     background-color:  	#F08080;
   }
 
+  section .text-wrapper h2:hover {
+    padding: 3px;
+  }
+
 
 .head-title {
     
@@ -60,43 +64,8 @@ section .text-wrapper h2 {
     
 }
 
+
 /* .logo:hover {
-    animation-name: pulse;
-	-webkit-animation-name: pulse;	
-
-	animation-duration: 1.5s;	
-    -webkit-animation-duration: 1.5s;
-
-	animation-iteration-count: infinite;
-	-webkit-animation-iteration-count: infinite;
-}
-
-@keyframes pulse {
-	0% {
-		transform: scale(0.9);
-	}
-	50% {
-		transform: scale(1);
-	}	
-	100% {
-		transform: scale(0.9);
-	}			
-}
-
-@-webkit-keyframes pulse {
-	0% {
-		-webkit-transform: scale(0.95);
-	}
-	50% {
-		-webkit-transform: scale(1);
-	}	
-	100% {
-		-webkit-transform: scale(0.95);
-	}			
-}
-} */
-
-.logo:hover {
         animation-name: tossing;
         -webkit-animation-name: tossing;	
     
@@ -129,15 +98,17 @@ section .text-wrapper h2 {
         100% {
             -webkit-transform: rotate(-4deg);	
         }				
-    }
+    } */
     
 
-/* .logo:hover {
+.logo:hover {
+    box-shadow: 0px 0px 60px 10px rgba(204, 204, 223, 0.71);
+    
     animation-name: floating;
 	-webkit-animation-name: floating;
 
-	animation-duration: 2.5s;	
-	-webkit-animation-duration: 2.5s;
+	animation-duration: 2.2s;	
+	-webkit-animation-duration: 2.2s;
 
 	animation-iteration-count: infinite;
 	-webkit-animation-iteration-count: infinite;
@@ -166,7 +137,7 @@ section .text-wrapper h2 {
 		-webkit-transform: translateY(0%);
 	}			
 }
-} */
+}
 
 
 
