@@ -64,6 +64,7 @@ section .text-wrapper h2 {
     
 }
 
+<<<<<<< HEAD
 
 /* .logo:hover {
         animation-name: tossing;
@@ -104,6 +105,8 @@ section .text-wrapper h2 {
 .logo:hover {
     box-shadow: 0px 0px 60px 10px rgba(204, 204, 223, 0.71);
     
+=======
+.img-wrapper img:hover {
     animation-name: floating;
 	-webkit-animation-name: floating;
 
