@@ -67,9 +67,12 @@ section .text-wrapper h2 {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> parent of 38c1fe0... 10
+=======
+>>>>>>> parent of 4582fc8... update-10
 =======
 >>>>>>> parent of 4582fc8... update-10
 =======
@@ -158,6 +161,7 @@ section .text-wrapper h2 {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* .logo:hover {
 >>>>>>> parent of 4582fc8... update-10
 =======
@@ -188,6 +192,9 @@ section .text-wrapper h2 {
 =======
 .img-wrapper img:hover {
 >>>>>>> parent of 97988d7... new animation
+=======
+/* .logo:hover {
+>>>>>>> parent of 4582fc8... update-10
     animation-name: floating;
 	-webkit-animation-name: floating;
 
@@ -221,7 +228,7 @@ section .text-wrapper h2 {
 		-webkit-transform: translateY(0%);
 	}			
 }
-}
+} */
 
 
 
