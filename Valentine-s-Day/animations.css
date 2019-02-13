@@ -772,7 +772,7 @@ floating
 ==============================================
 */
 
-.floating{
+/* .floating{
 	animation-name: floating;
 	-webkit-animation-name: floating;
 
@@ -805,7 +805,7 @@ floating
 	100% {
 		-webkit-transform: translateY(0%);
 	}			
-}
+} */
 
 /*
 ==============================================
@@ -813,7 +813,7 @@ tossing
 ==============================================
 */
 
-.tossing{
+/* .tossing{
 	animation-name: tossing;
 	-webkit-animation-name: tossing;	
 
@@ -846,7 +846,7 @@ tossing
 	100% {
 		-webkit-transform: rotate(-4deg);	
 	}				
-}
+} */
 
 /*
 ==============================================
