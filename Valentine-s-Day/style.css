@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
 
 section {
     background: url(img/bg.jpg) no-repeat;
@@ -51,7 +55,7 @@ section .text-wrapper h2 {
   }
 
 .head-title {
-    
+    color: #b4b4bb;
     text-align: center;
     line-height: 1.5;
     font-family: "Lora", serif;
@@ -148,7 +152,7 @@ section .text-wrapper h2 {
 
 
 hr {
-    margin: 100px 0 0;
+    margin: 80px 0 0;
     border: none;
     background-color: #F08080;
     height: 2px;
@@ -167,9 +171,9 @@ footer {
     letter-spacing: 3px;
     color: #778899;
     font-size: 18px;
-    text-transform: uppercase;
-    
+    text-transform: uppercase;    
 }
+
 footer {
     background: url(img/bg-4.jpg);
     background-size: cover;
@@ -182,8 +186,13 @@ footer {
 
 }
 
+
 footer p {    
     font-size: 18px;
     color:  #C0C0C0;
     text-transform: uppercase;
 }
+
+audio {
+    display: none;
+  }
