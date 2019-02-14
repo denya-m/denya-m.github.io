@@ -7,6 +7,14 @@ a {
     text-decoration: none;
 }
 
+a:active, a:hover, a:focus {
+    outline-offset: 0;
+    outline: 0;
+}
+
+audio {
+    display: none;
+}
 
 section {
     background: url(img/bg.jpg) no-repeat;
@@ -14,7 +22,6 @@ section {
 }
 
 .flex-container {
-    /* border: 1px solid red; */
     margin: 20px auto;
     width: 80%;
     display: flex;
@@ -27,7 +34,6 @@ section {
     height: auto;
     margin: 10px 0 0;
 }
-
 
 section .text-wrapper h2 {
     border: 1px solid #ddd;
@@ -43,15 +49,14 @@ section .text-wrapper h2 {
   }
 
   section .text-wrapper h2:hover {
+    cursor: pointer;
     border: 2px solid #F08080;
-    /* color: #F08080; */
     background-color: rgba(235, 129, 129, 0.863);
     box-shadow: 0px 0px 3px 3px rgba(216, 216, 224, 0.71);
     font: 700 30px "Amatic SC";
     padding: 7px;
     width: 203px;
     transition: 0.2s;
-     
   }
 
 .head-title {
@@ -70,6 +75,16 @@ section .text-wrapper h2 {
     line-height: 1.5;
 }
 
+.caption {
+    margin: 30px 0 0;
+    text-align: right;
+    font-family: 'Monotype Corsiva', sans-serif;
+    letter-spacing: 3px;
+    color: #778899;
+    font-size: 18px;
+    text-transform: uppercase;    
+}
+
 .logo {
     width: 244px;
     height: 244px;
@@ -78,6 +93,7 @@ section .text-wrapper h2 {
 }
 
 .logo:hover {
+    cursor: pointer;
     box-shadow: 0px 0px 60px 10px rgba(204, 204, 223, 0.71);
 	cursor: pointer;
         animation-name: tossing;
@@ -164,16 +180,6 @@ footer {
     padding: 15px;
 }
 
-.caption {
-    margin: 30px 0 0;
-    text-align: right;
-    font-family: 'Monotype Corsiva', sans-serif;
-    letter-spacing: 3px;
-    color: #778899;
-    font-size: 18px;
-    text-transform: uppercase;    
-}
-
 footer {
     background: url(img/bg-4.jpg);
     background-size: cover;
@@ -186,13 +192,8 @@ footer {
 
 }
 
-
 footer p {    
     font-size: 18px;
     color:  #C0C0C0;
     text-transform: uppercase;
 }
-
-audio {
-    display: none;
-  }
