@@ -1,0 +1,40 @@
+section {
+	padding: 1.9rem;
+}
+
+.header {
+	font-size: 1.25rem;
+	line-height: 1.5;
+	margin: 2.9em auto;
+}
+
+h1 span {
+	display: block;
+}
+
+.form-header, .section-header {
+	margin-bottom: 1.25rem;
+	font-size: 1.25rem;
+	font-weight: 900;
+}
+
+.form {
+	border: 5px solid #2727d9;
+	padding: 1.9rem 1.25rem;
+}
+
+.form input {
+	margin-bottom: 1rem;
+}
+
+.video {
+	margin-bottom: 1.9rem;
+}
+
+.feature {
+	margin: 3.75rem auto;
+}
+
+.feature p {
+	margin-top: 1.25rem;
+}
