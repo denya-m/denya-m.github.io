@@ -10,7 +10,7 @@ Landing Page
 
 [Golden](https://denya-m.github.io/Golden/ "Golden") - HTML5/CSS3
 
-[Million](https://denya-m.github.io/Million/ "Million") - HTML5/CSS3
+[Million](https://denya-m.github.io/Million/ "Million") - лендинг / Bootstrap
 
 [We-Believe-In-Quality-Design](https://denya-m.github.io/We-Believe-In-Quality-Design/ "We-Believe-In-Quality-Design") - адаптивный лендинг / Flex-box
 
