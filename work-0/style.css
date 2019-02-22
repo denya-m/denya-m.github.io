@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, sans-serif;
+    background: url("../img/kindajean.png");
+   }
+
+.wrapper {
+    background: #fff;
+    width: 900px;
+    padding: 0 10px;
+    margin: auto;
+   }
+
+   header {
+       background: #91c4da;
+       /* background: #a4e2ff; */
+   }
+
+   header img {
+       margin: 10px 10px 0;
+       width: 100px;
+   }
+
+   ul.top-menu {
+       margin: 0;
+       padding: 0;
+       list-style: none;
+       display: flex;
+       justify-content: center;
+   }
+
+   .top-menu li a {
+       color: #fff;
+       padding: 12px;
+       text-decoration: none;
+       font-size: 15px;
+       text-transform: uppercase;
+       display: block;
+   }
+   
+   .top-menu li:hover {
+       background: #153243;
+   }
+
+   .banner img {
+       margin: auto;
+       width: 100%;
+       height: 250px;
+   }
+
+   section {
+       display: flex;
+       padding: 10px;
+   }
+
+   aside {
+       width: 250px;
+       word-wrap: break-word;
+   }
+
+   article {
+       width: 100%;
+       margin: 0 0 0 20px;
+   }
+
+   nav .aside-title {
+       width: 130px;
+       margin: 20px auto;
+       
+   }
+
+   nav .aside-title:hover {
+       border-bottom: 2px solid #4a4a4a;
+       margin-bottom: 18px;
+   }
+
+   nav ul {
+       list-style: none;
+       margin: 0;
+       padding: 0;
+       background: #676767;
+   }
+
+   .aside-menu li {
+       border-bottom: 1px solid #4a4a4a;
+   }
+
+   .aside-menu li a {
+       text-decoration: none;
+       display: block;
+       color: #fff;
+       font-size: 14px;
+       padding: 10px;
+       text-transform: uppercase;
+   }
+
+   .aside-menu li:hover {
+       background: #153243;
+   }
+
+   nav img {
+       width: 250px;
+       min-height: 200px;
+       text-align: center;
+       margin: 10px 0 0;       
+   }
+
+   article h1 {
+       color: #525252;
+       margin: 5px 0;
+   }
+
+   article p {
+       color: #525252;
+       margin: 5px 0;
+   }
+
+   .box-content {
+       background: #f3f3f3;
+       border: 1px solid #cdcdcd;
+       margin: 15px 0; 
+       display: flex;      
+   }
+
+   .box-content img {
+       width: 200px;
+       height: 150px;
+       margin-right: 10px;
+   }
+
+   .txt-box-content h2 {
+       color: #525252;
+   }
+
+   .txt-box-content p {
+       font-size: 15px;
+   }
+
+   footer {
+       background: #153243;
+       height: 50px;
+       display: flex;
+       align-content: flex-start;
+             
+   }
+
+   footer p{
+       margin: auto;
+       color: #fff;
+       font-size: 15px;
+   }
+
+

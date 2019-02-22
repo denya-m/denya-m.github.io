@@ -1,0 +1,101 @@
+.wrapper {
+    width: 100%;
+    padding: 0;
+    
+}
+
+section {
+    flex-direction: column;
+}
+
+header img {
+    width: 80px;
+}
+
+.banner img {
+    width: 100%;
+}
+.top-menu li a {
+    font-size: 12px;
+}
+
+aside {
+    width: 100%;
+    text-align: center;
+}
+
+aside img {
+    margin: 15px;
+}
+
+article {
+    margin: 0;
+}
+
+
+@media all and (max-width: 580px) {
+    .top-menu li,
+    .banner {
+        display: none;
+    }
+
+    .top-menu:before {
+        content: '';
+        height: 39px;
+    }
+
+    .aside-menu {
+        margin: 0 0 5px;
+    }
+
+    nav img {
+        width: 100%;
+        max-height: 350px;    /* Сам не знаю почему.. но так лучше смотрится */
+        margin: 5px auto;
+    }
+
+    article h1 {
+        text-align: center;
+        font-size: 26px;
+    }
+
+    article p {
+        font-size: 14px;
+        margin: 10px 55px;
+    }
+
+    .box-content {
+        padding: 10px 0;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .box-content h2 {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .box-content p {
+        padding: 10px;   
+    }
+
+    .box-content img {
+        width: 80%;
+        height: 250px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+}
