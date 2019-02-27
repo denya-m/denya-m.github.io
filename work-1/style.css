@@ -1,0 +1,160 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, sans-serif;
+}
+
+#first-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    min-height: 600px;
+    background: url(/img/background.jpeg) no-repeat center;
+    background-size: cover;
+    position: relative;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+    width: 90%;
+    position: relative;
+    z-index: 1;
+    /* border: 2px solid red; */
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    z-index: 0; 
+    /* Не обязательно. Т.к на переднем плане, при равном значении z-index, находится тот элемент, который в коде html находится ниже. У нас overlay находится выше, поэтому header и всё что ниже идут поверх */
+    background-image: -moz-linear-gradient( 150deg, rgb(136,211,206) 0%, rgb(110,69,226) 100%);
+    background-image: -webkit-linear-gradient( 150deg, rgb(136,211,206) 0%, rgb(110,69,226) 100%);
+    background-image: -ms-linear-gradient( 150deg, rgb(136,211,206) 0%, rgb(110,69,226) 100%);
+  }
+
+  .logo {
+      display: flex;
+      align-items: center;
+      /* Не растягивается на весь контейнер, а прижимается к краю */
+      justify-content: space-around;
+      width: 20%;
+      /* border: 1px solid red;   */
+      
+  }
+
+  nav {
+      width: 40%;
+      /* border: 1px solid orange; */
+  }
+
+  nav ul {
+      display: flex;
+      justify-content: space-between;
+      list-style: none;
+      padding: 0;
+      /* border: 1px solid green; */
+  }
+
+  .menu-link {
+      text-decoration: none;
+      color: #fff;
+  }
+
+  .get-started-btn {
+      margin-left: 20px;
+      padding: 10px 20px;
+      border: 1px solid #fff;
+      border-radius: 100px;
+      text-transform: uppercase;
+  }
+
+  .main-text {
+      position: relative;
+      z-index: 2;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .main-text span {
+      display: inline-block;
+      font-size: 14px;
+  }
+
+  .main-text span::after {
+      content: '';
+      width: 20px;
+      height: 1px;
+      background-color: #fff;
+      display: inline-block;
+      vertical-align: middle;
+      margin-left: 10px;
+  }
+
+  .main-text span::before {
+      content: '';
+      width: 20px;
+      height: 1px;
+      background-color: #fff;
+      display: inline-block;
+      vertical-align: middle;
+      margin-right: 20px;      
+  }
+
+  h1 {
+      font-size: 86px;
+      padding: 43px 0 23px;
+      /* У Артёма margin 0.5rem */
+      margin: 0;
+  }
+
+  .main-text__description {
+      display: inline-block;
+      width: 70%;
+      line-height: 2;
+      text-align: center;
+      font-size: 16px;
+  }
+
+  .main-arrow {
+      z-index: 2;
+      position: relative;
+      height: 10vh;
+      /* border: 1px solid red; */
+  }
+
+/* .main-arrow * {
+    border: 1px solid red;
+} */
+
+  .arrow-down{
+      width: 50px;
+      height: 50px;
+      background-color: #fff;
+      border-radius: 50%;
+  }
+
+  .arrow-down:hover {
+    box-shadow: 0px 0px 18.69px 2.31px rgba(204, 204, 223, 0.5);
+  }
+
+
+  #section__select-plan {
+      height: 100vh;
+      background-color: #f9fafc;
+  }
+  
