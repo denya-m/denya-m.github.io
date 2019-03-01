@@ -4,10 +4,18 @@
     box-sizing: border-box;
 }
 
+html {
+    font-size: 10px;
+}
+
 body {
     margin: 0;
     padding: 0;
     font-family: Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
 }
 
 #first-section {
@@ -51,7 +59,7 @@ header {
       align-items: center;
       /* Не растягивается на весь контейнер, а прижимается к краю */
       justify-content: space-around;
-      width: 20%;
+      width: 15vh;
       /* border: 1px solid red;   */
       
   }
@@ -72,6 +80,7 @@ header {
   .menu-link {
       text-decoration: none;
       color: #fff;
+      font-size: 1.6rem;   
   }
 
   .get-started-btn {
@@ -92,7 +101,7 @@ header {
 
   .main-text span {
       display: inline-block;
-      font-size: 14px;
+      font-size: 1.4rem;
   }
 
   .main-text span::after {
@@ -117,9 +126,8 @@ header {
 
   h1 {
       font-size: 86px;
-      padding: 43px 0 23px;
+      margin: 43px 0 23px;
       /* У Артёма margin 0.5rem */
-      margin: 0;
   }
 
   .main-text__description {
@@ -127,7 +135,7 @@ header {
       width: 70%;
       line-height: 2;
       text-align: center;
-      font-size: 16px;
+      font-size: 1.6rem;
   }
 
   .main-arrow {
@@ -153,8 +161,116 @@ header {
   }
 
 
+
   #section__select-plan {
       height: 100vh;
       background-color: #f9fafc;
+      min-height: 600px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      /* align-items: center; */
+  }
+
+  #section__select-plan span,
+  #section__select-plan p {
+      color: #9fa4af;
+  }
+
+  #section__select-plan p.main-text__description {
+      width: 30%;
+  }
+
+  #section__select-plan span::after {
+    background-color: #6e45e2;
+  }
+
+  #section__select-plan span::before{
+    background-color: #6e45e2;
+  }   
+
+  #section__select-plan h2 {
+      font-size: 60px;
+      color: #4f4f6f;
+      margin: 30px 0 40px;  
+  }  
+
+  .card-wrapper {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 70%;
+      margin: 0 auto;
+      /* border: 1px solid red; */
   }
   
+  .price-card {
+      /* width: 45vh; */
+      height: 60vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;      
+      border: 1px solid #d7dbe8;
+      border-radius: 2.5rem;
+      text-align: center;
+      padding: 3rem 7rem;
+      background-color: #fff;
+      transition: 0.5s;
+  }
+
+  .price-card:hover {
+    box-shadow: 0px 0px 60px 10px rgba(204, 204, 223, 0.71);
+    cursor: pointer;
+}
+
+.price-card span {
+    font-size: 1.4rem;
+    color: #9fa4af;
+    text-transform: uppercase;
+}
+
+.price-card h4 {
+    font-size: 3.5rem;
+    font-weight: 500px;
+    color: #4f4f6f;
+    margin: 0;
+
+}
+.price-card p {
+    width: 250px;
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    color: #9fa4af;
+}
+
+.price-card sup {
+	font-size: 1.4rem;
+	margin-right: 0.3rem;
+	vertical-align: super;
+}
+
+.price-card sub {
+	font-size: 1.4rem;
+}
+
+.price-btn {
+	background-color: #fff;
+	color: #9fa4af;
+	border-radius: 100px;
+	border: 1px solid #9fa4af;
+	font-size: 1rem;
+	text-transform: uppercase;	
+	padding: 1rem 4rem;
+	font-weight: 300;
+	margin: 2rem auto;
+	transition: 0.2s;
+}
+
+.price-btn:hover {
+	background-color: #6e45e2;
+	color: #fff;
+	box-shadow: none;
+	cursor: pointer;
+}
