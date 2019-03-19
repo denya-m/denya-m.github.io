@@ -56,10 +56,34 @@ h3 {
     left: 20px;
     top: 20px;
     transition: 0.5s;
+    padding: 20px;
 }
 
 .opacity {
     background-color: #000;
     border: 2px solid orange;
     /* position: absolute; */
+}
+
+#images-smurf {
+    padding: 50px;
+    border-top: 3px silid yellow;
+}
+
+.image {
+    display: inline-block;
+    margin: 50px;
+    /* border: 1px solid grey; */
+    border-radius: 15px;
+    overflow: hidden;
+    width: 450px;
+    height: 450px;
+}
+
+.image img {
+    transition: all 1s ease-out;
+}
+
+.image img:hover {
+    transform: scale(1.1);
 }
